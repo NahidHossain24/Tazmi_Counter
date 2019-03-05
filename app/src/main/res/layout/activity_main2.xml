@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="তাজমিহ"
+        android:textSize="40sp"
+        android:textColor="@color/greem"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আপনার জীবনের নিত্য  সঙ্গী"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_weight="1"
+        android:layout_width="150dp"
+        android:layout_margin="30dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/giphy"
+
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ডেভেলপার: মোঃ নাহিদ হোসেন"
+        android:layout_margin="30dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
